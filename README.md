@@ -32,7 +32,6 @@
 - Установить зависимости ```pip install -r requirements.txt```
 - Подготовить миграции ```python manage.py makemigrations```
 - Провести миграции ```python manage.py migrate```
-- Запустить проект командой ```docker compose up```
 - Загрузить тестовые данные при необходимости:
   - ```python manage.py loaddata users.json``` - загрузка данных администратора и студентов
   - ```python manage.py loaddata lms-data.json``` - загрузка данных с продуктами
