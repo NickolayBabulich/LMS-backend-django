@@ -1,0 +1,484 @@
+[
+{
+    "model": "lms.product",
+    "pk": 1,
+    "fields": {
+        "title": "Python разработка для самых красивых",
+        "start_date": "2024-03-20T06:00:00Z",
+        "price": "3999.99",
+        "minimum_students": 1,
+        "maximum_students": 3,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.product",
+    "pk": 2,
+    "fields": {
+        "title": "Как Script победил Java или нескучный Web",
+        "start_date": "2024-03-20T06:00:00Z",
+        "price": "5666.99",
+        "minimum_students": 2,
+        "maximum_students": 3,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.product",
+    "pk": 4,
+    "fields": {
+        "title": "JavaScript: от новичка до гуру",
+        "start_date": "2024-03-20T06:00:00Z",
+        "price": "4500.00",
+        "minimum_students": 3,
+        "maximum_students": 6,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.product",
+    "pk": 6,
+    "fields": {
+        "title": "С++ Для чайников",
+        "start_date": "2024-03-30T06:00:00Z",
+        "price": "8000.00",
+        "minimum_students": 2,
+        "maximum_students": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 1,
+    "fields": {
+        "student": 13,
+        "product": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 2,
+    "fields": {
+        "student": 11,
+        "product": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 3,
+    "fields": {
+        "student": 7,
+        "product": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 4,
+    "fields": {
+        "student": 8,
+        "product": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 5,
+    "fields": {
+        "student": 6,
+        "product": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 6,
+    "fields": {
+        "student": 13,
+        "product": 2,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 7,
+    "fields": {
+        "student": 10,
+        "product": 2,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 14,
+    "fields": {
+        "student": 3,
+        "product": 2,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 15,
+    "fields": {
+        "student": 14,
+        "product": 2,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 17,
+    "fields": {
+        "student": 14,
+        "product": 6,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 18,
+    "fields": {
+        "student": 4,
+        "product": 6,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 19,
+    "fields": {
+        "student": 9,
+        "product": 6,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 20,
+    "fields": {
+        "student": 8,
+        "product": 4,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.productaccess",
+    "pk": 21,
+    "fields": {
+        "student": 14,
+        "product": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 1,
+    "fields": {
+        "title": "Урок 1: Python или Питон",
+        "video_url": "https://python.ru",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 2,
+    "fields": {
+        "title": "Урок 2: Как приручить змею",
+        "video_url": "https://python.ru",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 3,
+    "fields": {
+        "title": "Урок 3: Hello О прекрасный World",
+        "video_url": "https://python.ru",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 4,
+    "fields": {
+        "title": "Урок 4: Переменные не постоянные или секреты \"черной коробки\"",
+        "video_url": "https://python.ru",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 5,
+    "fields": {
+        "title": "Урок 5: Не типичные типы",
+        "video_url": "https://python.ru",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 6,
+    "fields": {
+        "title": "Урок 6: Выведи меня из себя или как работать с print",
+        "video_url": "https://python.ru",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 7,
+    "fields": {
+        "title": "Урок 7: Модули и библиотеки",
+        "video_url": "https://example.com/lesson7",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 8,
+    "fields": {
+        "title": "Урок 8: Заключительное слово",
+        "video_url": "https://example.com/lesson8",
+        "product": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 9,
+    "fields": {
+        "title": "Урок 1: Введение в Java",
+        "video_url": "https://example.com/lesson1",
+        "product": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 10,
+    "fields": {
+        "title": "Урок 2: Переменные и типы данных",
+        "video_url": "https://example.com/lesson2",
+        "product": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 11,
+    "fields": {
+        "title": "Урок 3: Операторы и выражения",
+        "video_url": "https://example.com/lesson3",
+        "product": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 12,
+    "fields": {
+        "title": "Урок 4: Управление потоком выполнения",
+        "video_url": "https://example.com/lesson4",
+        "product": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 13,
+    "fields": {
+        "title": "Урок 5: Функции",
+        "video_url": "https://example.com/lesson5",
+        "product": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 14,
+    "fields": {
+        "title": "Урок 6: Работа с файлами",
+        "video_url": "https://example.com/lesson6",
+        "product": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 15,
+    "fields": {
+        "title": "Урок 7: Модули и библиотеки",
+        "video_url": "https://example.com/lesson7",
+        "product": 2
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 17,
+    "fields": {
+        "title": "Урок 1: Введение в JavaScript",
+        "video_url": "https://example.com/lesson1",
+        "product": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 18,
+    "fields": {
+        "title": "Урок 2: Переменные и типы данных",
+        "video_url": "https://example.com/lesson2",
+        "product": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 19,
+    "fields": {
+        "title": "Урок 3: Операторы и выражения",
+        "video_url": "https://example.com/lesson3",
+        "product": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 20,
+    "fields": {
+        "title": "Урок 4: Управление потоком выполнения",
+        "video_url": "https://example.com/lesson4",
+        "product": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 21,
+    "fields": {
+        "title": "Урок 5: Функции",
+        "video_url": "https://example.com/lesson5",
+        "product": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 22,
+    "fields": {
+        "title": "Урок 6: Работа с файлами",
+        "video_url": "https://example.com/lesson6",
+        "product": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 25,
+    "fields": {
+        "title": "Урок 1: Введение в C++",
+        "video_url": "https://example.com/lesson1",
+        "product": 6
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 26,
+    "fields": {
+        "title": "Урок 2: Переменные и типы данных",
+        "video_url": "https://example.com/lesson2",
+        "product": 6
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 27,
+    "fields": {
+        "title": "Урок 3: Операторы и выражения",
+        "video_url": "https://example.com/lesson3",
+        "product": 6
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 28,
+    "fields": {
+        "title": "Урок 4: Управление потоком выполнения",
+        "video_url": "https://example.com/lesson4",
+        "product": 6
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 29,
+    "fields": {
+        "title": "Урок 5: Функции",
+        "video_url": "https://example.com/lesson5",
+        "product": 6
+    }
+},
+{
+    "model": "lms.group",
+    "pk": 1,
+    "fields": {
+        "title": "Python разработка для самых красивых-Group-1",
+        "product": 1,
+        "students": [
+            7,
+            11,
+            13
+        ]
+    }
+},
+{
+    "model": "lms.group",
+    "pk": 2,
+    "fields": {
+        "title": "Python разработка для самых красивых-Group-2",
+        "product": 1,
+        "students": [
+            6,
+            8,
+            14
+        ]
+    }
+},
+{
+    "model": "lms.group",
+    "pk": 3,
+    "fields": {
+        "title": "Как Script победил Java или нескучный Web-Group-1",
+        "product": 2,
+        "students": [
+            3,
+            10,
+            13
+        ]
+    }
+},
+{
+    "model": "lms.group",
+    "pk": 4,
+    "fields": {
+        "title": "Как Script победил Java или нескучный Web-Group-2",
+        "product": 2,
+        "students": [
+            14
+        ]
+    }
+},
+{
+    "model": "lms.group",
+    "pk": 5,
+    "fields": {
+        "title": "С++ Для чайников-Group-1",
+        "product": 6,
+        "students": [
+            4,
+            9,
+            14
+        ]
+    }
+},
+{
+    "model": "lms.group",
+    "pk": 6,
+    "fields": {
+        "title": "JavaScript: от новичка до гуру-Group-1",
+        "product": 4,
+        "students": [
+            8
+        ]
+    }
+}
+]
